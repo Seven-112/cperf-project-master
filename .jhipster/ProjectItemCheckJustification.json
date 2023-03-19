@@ -1,0 +1,35 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "microproject",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "checked",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "taskItemId",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "justification",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "dateAndTime",
+      "fieldType": "Instant"
+    }
+  ],
+  "changelogDate": "20211208174956",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "serviceClass",
+  "entityTableName": "prj_item_check_justification",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": true,
+  "pagination": "pagination",
+  "microserviceName": "microproject"
+}

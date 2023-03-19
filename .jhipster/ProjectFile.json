@@ -1,0 +1,51 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "microproject",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "fileId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "fileName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "fileType",
+      "fieldType": "ProjectFileType",
+      "fieldValues": "DESCRIPTION"
+    },
+    {
+      "fieldName": "projectId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "userId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "userName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "userEmail",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20211227225916",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "serviceClass",
+  "entityTableName": "prj_file",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": true,
+  "pagination": "pagination",
+  "microserviceName": "microproject"
+}

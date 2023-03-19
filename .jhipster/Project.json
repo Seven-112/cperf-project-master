@@ -1,0 +1,100 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "microproject",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "label",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "priorityLevel",
+      "fieldType": "ProjectPriority",
+      "fieldValues": "VERYHIGTH,HIGHT,LOW,VERYLOW"
+    },
+    {
+      "fieldName": "valid",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "previewStartAt",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "startAt",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "previewFinishAt",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "finishedAt",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "startCount",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "parentId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "editorId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "runnableProcessId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "categoryId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "responsableId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "responsableName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "responsableEmail",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "ponderation",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "taskGlobalPonderation",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "path",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20211014140034",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "serviceClass",
+  "entityTableName": "project",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": true,
+  "pagination": "pagination",
+  "microserviceName": "microproject"
+}

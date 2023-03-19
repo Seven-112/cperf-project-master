@@ -1,0 +1,34 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "microproject",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "fileId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "fileName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "ProjectTaskFileType",
+      "fieldValues": "DESCRIPTION,VALIDATION,SOUMISSION"
+    },
+    {
+      "fieldName": "taskId",
+      "fieldType": "Long"
+    }
+  ],
+  "changelogDate": "20211014143125",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "serviceClass",
+  "entityTableName": "prj_task_file",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": true,
+  "pagination": "pagination",
+  "microserviceName": "microproject"
+}

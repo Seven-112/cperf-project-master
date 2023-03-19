@@ -1,0 +1,11 @@
+package com.mshz.microproject.webflux.dto;
+
+public enum NotifAction {
+    // microproject actions
+    PRJ_TASK_STARTED,PRJ_TASK_EXECUTED,
+    PRJ_TASK_CANCELED, PRJ_TASK_ON_PAUSE,
+    PRJ_TASK_SUBMITTED,PRJ_TASK_COMPLETED,  
+    PRJ_TASK_VALID,PRJ_TASK_LOG_CREATED, PRJ_TASK_LOG_UPDATED,
+    PRJ_TASK_ITEM_TO_CHECK,PRJ_TASK_ITEM_CHECKED,PRJ_TASK_TO_CHECK
+
+}
